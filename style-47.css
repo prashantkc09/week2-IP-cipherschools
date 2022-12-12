@@ -1,0 +1,13 @@
+/* inline style attribute> id selector >class selectors>element selectors */
+
+div#container ul.my-songs li{
+    color:brown;
+    background:yellow
+}
+div#container ul.my-songs li.favourite{
+    color:yellow;
+    background: brown;
+}
+
+/*0,0,1,0--->10    old specificity*/
+/* 0,1,2,3--->123*/
